@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>About Me | Lance Sardon</title>
+
+    <link
+        rel="stylesheet"
+        href="../style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- ==========================================
+         SIDEBAR
+    =========================================== -->
+
+    <aside
+        class="sidebar"
+        id="sidebar"
+    >
+
+        <!-- SIDEBAR HEADER -->
+
+        <div class="sidebar-header">
+
+            <div class="logo">
+
+                <span class="logo-icon">
+                    L
+                </span>
+
+                <div>
+
+                    <h2>
+                        iLance
+                    </h2>
+
+                    <span>
+                        Portfolio
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="sidebar-close"
+                id="sidebarClose"
+            >
+                ✕
+            </button>
+
+        </div>
+
+
+        <!-- PROFILE -->
+
+        <div class="sidebar-profile">
+
+            <div class="profile-avatar">
+                LJS
+            </div>
+
+            <div class="profile-info">
+
+                <h3>
+                    Lance Sardon
+                </h3>
+
+                <span>
+                    Web Developer
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="sidebar-nav">
+
+            <p class="nav-title">
+                MENU
+            </p>
+
+
+            <a
+                href="../index.html"
+                class="nav-item"
+            >
+
+                <span class="nav-icon">
+                    ⌂
+                </span>
+
+                <span>
+                    Dashboard
+                </span>
+
+            </a>
+
+
+            <a
+                href="about.html"
+                class="nav-item active"
+            >
+
+                <span class="nav-icon">
+                    ◉
+                </span>
+
+                <span>
+                    About Me
+                </span>
+
+            </a>
+
+
+            <a
+                href="skills.html"
+                class="nav-item"
+            >
+
+                <span class="nav-icon">
+                    ◇
+                </span>
+
+                <span>
+                    Skills
+                </span>
+
+            </a>
+
+
+            <a
+                href="projects.html"
+                class="nav-item"
+            >
+
+                <span class="nav-icon">
+                    ▣
+                </span>
+
+                <span>
+                    Projects
+                </span>
+
+            </a>
+
+
+            <a
+                href="services.html"
+                class="nav-item"
+            >
+
+                <span class="nav-icon">
+                    ⚙
+                </span>
+
+                <span>
+                    Services
+                </span>
+
+            </a>
+
+
+            <a
+                href="contact.html"
+                class="nav-item"
+            >
+
+                <span class="nav-icon">
+                    ✉
+                </span>
+
+                <span>
+                    Contact
+                </span>
+
+            </a>
+
+
+            <p class="nav-title nav-title-bottom">
+                PERSONAL
+            </p>
+
+
+            <a
+                href="projects.html"
+                class="nav-item"
+            >
+
+                <span class="nav-icon">
+                    ★
+                </span>
+
+                <span>
+                    Featured Work
+                </span>
+
+            </a>
+
+        </nav>
+
+
+        <!-- SIDEBAR BOTTOM -->
+
+        <div class="sidebar-bottom">
+
+            <div class="availability-mini">
+
+                <span class="status-dot"></span>
+
+                <div>
+
+                    <strong>
+                        Available
+                    </strong>
+
+                    <small>
+                        For opportunities
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </aside>
+
+
+    <!-- OVERLAY -->
+
+    <div
+        class="sidebar-overlay"
+        id="sidebarOverlay"
+    ></div>
+
+
+    <!-- ==========================================
+         MAIN
+    =========================================== -->
+
+    <main class="dashboard">
+
+
+        <!-- TOPBAR -->
+
+        <header class="topbar">
+
+            <div class="topbar-left">
+
+                <button
+                    class="menu-btn"
+                    id="menuBtn"
+                >
+                    ☰
+                </button>
+
+
+                <div class="breadcrumb">
+
+                    <span>
+                        Portfolio
+                    </span>
+
+                    <span class="breadcrumb-arrow">
+                        /
+                    </span>
+
+                    <strong>
+                        About Me
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="topbar-right">
+
+
+                <!-- SEARCH -->
+
+                <button
+                    class="topbar-btn search-btn"
+                >
+                    🔍
+                </button>
+
+
+                <!-- THEME -->
+
+                <button
+                    class="topbar-btn"
+                    id="themeBtn"
+                >
+                    ☀️
+                </button>
+
+
+                <!-- NOTIFICATION -->
+
+                <button
+                    class="topbar-btn notification-btn"
+                >
+
+                    🔔
+
+                    <span
+                        class="notification-dot"
+                    ></span>
+
+                </button>
+
+
+                <!-- USER -->
+
+                <div class="topbar-user">
+
+                    <div class="topbar-avatar">
+                        LJS
+                    </div>
+
+                    <div class="topbar-user-info">
+
+                        <strong>
+                            Lance Sardon
+                        </strong>
+
+                        <span>
+                            Developer
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- ==========================================
+             ABOUT CONTENT
+        =========================================== -->
+
+        <section class="dashboard-content">
+
+
+            <!-- PAGE HEADER -->
+
+            <div class="welcome-section">
+
+                <div>
+
+                    <span class="dashboard-label">
+                        PROFILE
+                    </span>
+
+                    <h1>
+                        About Me
+                    </h1>
+
+                    <p>
+                        Get to know more about my background,
+                        interests, goals, and the things I'm
+                        currently building.
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="contact.html"
+                    class="primary-btn"
+                >
+                    Contact Me
+                    <span>
+                        →
+                    </span>
+                </a>
+
+            </div>
+
+
+            <!-- ======================================
+                 PROFILE CARD
+            ======================================= -->
+
+            <div class="about-profile-card dashboard-card">
+
+
+                <!-- PROFILE IMAGE -->
+
+                <div class="about-profile-image">
+
+                    <div class="about-avatar">
+
+                        L
+
+                    </div>
+
+                    <div class="profile-status">
+
+                        <span class="status-dot"></span>
+
+                        Available
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROFILE INFORMATION -->
+
+                <div class="about-profile-info">
+
+                    <span class="card-label">
+                        HELLO, I'M
+                    </span>
+
+                    <h2>
+                        Lance James Sardon
+                    </h2>
+
+                    <h3>
+                        Web Developer
+                        <span>+</span>
+                        Graphic Designer
+                    </h3>
+
+                    <p>
+
+                        I am a Bachelor of Science in
+                        Information Technology graduate
+                        interested in building modern,
+                        responsive, and useful digital
+                        experiences.
+
+                    </p>
+
+                    <p>
+
+                        I enjoy combining technology and
+                        creativity through web development,
+                        web design, UI design, and graphic
+                        design.
+
+                    </p>
+
+
+                    <!-- TAGS -->
+
+                    <div class="about-tags">
+
+                        <span>
+                            Web Development
+                        </span>
+
+                        <span>
+                            Web Design
+                        </span>
+
+                        <span>
+                            Graphic Design
+                        </span>
+
+                        <span>
+                            UI Design
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ======================================
+                 INFORMATION GRID
+            ======================================= -->
+
+            <div class="about-info-grid">
+
+
+                <!-- EDUCATION -->
+
+                <div class="dashboard-card">
+
+                    <div class="card-header">
+
+                        <div>
+
+                            <span class="card-label">
+                                EDUCATION
+                            </span>
+
+                            <h2>
+                                My Background
+                            </h2>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="about-info-item">
+
+                        <div class="info-icon">
+                            🎓
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Bachelor of Science
+                                in Information Technology
+                            </h3>
+
+                            <p>
+                                BSIT Graduate
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="about-info-item">
+
+                        <div class="info-icon">
+                            🎨
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Virtual Graphic Design
+                            </h3>
+
+                            <p>
+                                3-Month Graphic Design Course
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CURRENT FOCUS -->
+
+                <div class="dashboard-card">
+
+                    <div class="card-header">
+
+                        <div>
+
+                            <span class="card-label">
+                                CURRENT FOCUS
+                            </span>
+
+                            <h2>
+                                What I'm Building
+                            </h2>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="focus-list">
+
+
+                        <div class="focus-item">
+
+                            <span>
+                                01
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    Web Development
+                                </strong>
+
+                                <small>
+                                    Building modern web systems
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="focus-item">
+
+                            <span>
+                                02
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    UI / Web Design
+                                </strong>
+
+                                <small>
+                                    Creating clean user interfaces
+                                </small>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="focus-item">
+
+                            <span>
+                                03
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    Graphic Design
+                                </strong>
+
+                                <small>
+                                    Visual and creative projects
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ======================================
+                 VALUES
+            ======================================= -->
+
+            <div class="dashboard-card values-dashboard">
+
+                <div class="card-header">
+
+                    <div>
+
+                        <span class="card-label">
+                            VALUES
+                        </span>
+
+                        <h2>
+                            What Matters To Me
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="values-grid">
+
+
+                    <!-- VALUE 1 -->
+
+                    <div class="value-card">
+
+                        <div class="value-icon">
+                            ✦
+                        </div>
+
+                        <h3>
+                            Faith
+                        </h3>
+
+                        <p>
+                            Keeping faith and purpose
+                            at the center of my life
+                            and work.
+                        </p>
+
+                    </div>
+
+
+                    <!-- VALUE 2 -->
+
+                    <div class="value-card">
+
+                        <div class="value-icon">
+                            ♥
+                        </div>
+
+                        <h3>
+                            Family
+                        </h3>
+
+                        <p>
+                            Family is one of the biggest
+                            motivations behind my goals.
+                        </p>
+
+                    </div>
+
+
+                    <!-- VALUE 3 -->
+
+                    <div class="value-card">
+
+                        <div class="value-icon">
+                            ✚
+                        </div>
+
+                        <h3>
+                            Helping Others
+                        </h3>
+
+                        <p>
+                            I want to use technology and
+                            creativity to create useful
+                            solutions for people.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ======================================
+                 PERSONAL GOAL
+            ======================================= -->
+
+            <div class="dashboard-card goal-card">
+
+                <div class="goal-content">
+
+                    <span class="card-label">
+                        LONG-TERM GOAL
+                    </span>
+
+                    <h2>
+                        Build. Create. Help.
+                    </h2>
+
+                    <p>
+
+                        My long-term goal is to grow as a
+                        developer and designer, gain real-world
+                        experience, and eventually build my
+                        own company.
+
+                    </p>
+
+                </div>
+
+
+                <div class="goal-icon">
+
+                    <span>
+                        ↗
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- ======================================
+                 CTA
+            ======================================= -->
+
+            <div class="dashboard-cta">
+
+                <div>
+
+                    <span>
+                        LET'S CONNECT
+                    </span>
+
+                    <h2>
+                        Have an idea or project?
+                    </h2>
+
+                    <p>
+                        Let's talk about what we can build
+                        together.
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="contact.html"
+                    class="primary-btn"
+                >
+                    Get In Touch →
+                </a>
+
+            </div>
+
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer class="dashboard-footer">
+
+            <p>
+
+                ©
+                <span id="currentYear"></span>
+
+                Lance James Sardon.
+
+                All rights reserved.
+
+            </p>
+
+
+            <p>
+
+                Built with HTML, CSS & JavaScript.
+
+            </p>
+
+        </footer>
+
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="../script.js"></script>
+
+</body>
+
+</html>

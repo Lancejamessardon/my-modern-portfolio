@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | iLance Portfolio</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <!-- ==========================================
+         MOBILE OVERLAY
+    =========================================== -->
+
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+
+    <!-- ==========================================
+         SIDEBAR
+    =========================================== -->
+
+    <aside class="sidebar" id="sidebar">
+
+        <div class="sidebar-header">
+
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">i</span>
+                <span>Lance</span>
+            </a>
+
+            <button class="sidebar-close" id="sidebarClose">
+                ×
+            </button>
+
+        </div>
+
+
+        <!-- PROFILE -->
+
+        
+        <div class="sidebar-profile">
+
+            <div class="profile-avatar">
+                LJS
+            </div>
+
+            <div class="profile-info">
+                <h3>Lance Sardon</h3>
+                <span><marquee>Web Developer & Graphic Designer</marquee></span>
+            </div>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="sidebar-nav">
+
+            <p class="nav-title">MAIN</p>
+
+            <a href="../index.html" class="nav-item">
+                <span class="nav-icon">⌂</span>
+                <span>Dashboard</span>
+            </a>
+
+            <a href="about.html" class="nav-item">
+                <span class="nav-icon">◉</span>
+                <span>About Me</span>
+            </a>
+
+            <a href="skills.html" class="nav-item">
+                <span class="nav-icon">◇</span>
+                <span>Skills</span>
+            </a>
+
+            <a href="projects.html" class="nav-item active">
+                <span class="nav-icon">▣</span>
+                <span>Projects</span>
+            </a>
+
+            <a href="services.html" class="nav-item">
+                <span class="nav-icon">◈</span>
+                <span>Services</span>
+            </a>
+
+            <a href="contact.html" class="nav-item">
+                <span class="nav-icon">✉</span>
+                <span>Contact</span>
+            </a>
+
+
+            <p class="nav-title nav-title-space">WORK</p>
+
+            <a href="projects.html" class="nav-item active">
+                <span class="nav-icon">★</span>
+                <span>Featured Work</span>
+            </a>
+
+        </nav>
+
+
+        <!-- AVAILABILITY -->
+
+        <div class="sidebar-availability">
+
+            <div class="availability-dot"></div>
+
+            <div>
+                <strong>Available</strong>
+                <span>Open for opportunities</span>
+            </div>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- ==========================================
+         MAIN DASHBOARD
+    =========================================== -->
+
+    <main class="dashboard">
+
+
+        <!-- ==========================================
+             TOPBAR
+        =========================================== -->
+
+        <header class="topbar">
+
+            <div class="topbar-left">
+
+                <button class="menu-btn" id="menuBtn">
+                    ☰
+                </button>
+
+                <div class="breadcrumb">
+                    <span>Dashboard</span>
+                    <b>/</b>
+                    <strong>Projects</strong>
+                </div>
+
+            </div>
+
+
+            <div class="topbar-right">
+
+                <button class="topbar-btn search-btn" id="searchBtn">
+                    🔍
+                </button>
+
+                <button class="topbar-btn" id="themeBtn">
+                    ☀️
+                </button>
+
+                <button class="topbar-btn notification-btn">
+                    🔔
+                    <span class="notification-dot"></span>
+                </button>
+
+                <div class="topbar-user">
+
+                    <div class="topbar-avatar">
+                        LS
+                    </div>
+
+                    <div>
+                        <strong>Lance</strong>
+                        <span>Developer</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+
+        <!-- ==========================================
+             PAGE CONTENT
+        =========================================== -->
+
+        <section class="dashboard-content">
+
+
+            <!-- PAGE HEADER -->
+
+            <div class="page-heading project-heading">
+
+                <div>
+
+                    <span class="eyebrow">
+                        PORTFOLIO WORK
+                    </span>
+
+                    <h1>
+                        My <span>Projects</span>
+                    </h1>
+
+                    <p>
+                        A collection of systems, websites, and creative
+                        projects I have built or am currently developing.
+                    </p>
+
+                </div>
+
+
+                <a href="contact.html" class="btn btn-primary">
+                    Let's Work Together
+                </a>
+
+            </div>
+
+
+
+            <!-- ==========================================
+                 PROJECT STATS
+            =========================================== -->
+
+            <div class="project-stats">
+
+
+                <div class="project-stat-card">
+
+                    <div class="project-stat-icon">
+                        ▣
+                    </div>
+
+                    <div>
+                        <span>Total Projects</span>
+                        <strong>04</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="project-stat-card">
+
+                    <div class="project-stat-icon">
+                        ✓
+                    </div>
+
+                    <div>
+                        <span>Completed</span>
+                        <strong>02</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="project-stat-card">
+
+                    <div class="project-stat-icon">
+                        ⚙
+                    </div>
+
+                    <div>
+                        <span>In Development</span>
+                        <strong>01</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="project-stat-card">
+
+                    <div class="project-stat-icon">
+                        GD
+                    </div>
+
+                    <div>
+                        <span>Design Work</span>
+                        <strong>01</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==========================================
+                 PROJECT FILTER
+            =========================================== -->
+
+            <div class="project-toolbar">
+
+                <div>
+
+                    <h2>Featured Work</h2>
+
+                    <p>
+                        Selected projects and learning builds
+                    </p>
+
+                </div>
+
+
+                <div class="project-filters">
+
+                    <button class="project-filter active">
+                        All
+                    </button>
+
+                    <button class="project-filter">
+                        Web
+                    </button>
+
+                    <button class="project-filter">
+                        Backend
+                    </button>
+
+                    <button class="project-filter">
+                        Design
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==========================================
+                 PROJECT GRID
+            =========================================== -->
+
+            <div class="projects-dashboard-grid">
+
+
+                <!-- ======================================
+                     PROJECT 1
+                ======================================= -->
+
+                <article class="project-dashboard-card featured-project">
+
+                    <div class="project-preview pwd-preview">
+
+                        <div class="preview-topbar">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <div class="preview-content">
+
+                            <div class="preview-sidebar"></div>
+
+                            <div class="preview-main">
+
+                                <div class="preview-line large"></div>
+
+                                <div class="preview-line"></div>
+
+                                <div class="preview-cards">
+
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <span class="preview-label">
+                            PWD ASSIST
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-card-content">
+
+                        <div class="project-card-top">
+
+                            <span class="project-status status-development">
+                                DEVELOPMENT
+                            </span>
+
+                            <span class="project-type">
+                                Full-Stack
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            PWD Assist
+                        </h3>
+
+                        <p>
+                            An accessibility-focused web system designed
+                            to provide services, emergency assistance,
+                            accessible locations, and useful information
+                            for persons with disabilities.
+                        </p>
+
+
+                        <div class="project-tech-list">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+
+                        </div>
+
+
+                        <div class="project-card-footer">
+
+                            <span class="project-year">
+                                2026
+                            </span>
+
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ======================================
+                     PROJECT 2
+                ======================================= -->
+
+                <article class="project-dashboard-card">
+
+                    <div class="project-preview aqua-preview">
+
+                        <div class="preview-water">
+
+                            <div class="fish-shape">
+                                🐟
+                            </div>
+
+                            <div class="fish-shape fish-two">
+                                🐠
+                            </div>
+
+                            <div class="bubble bubble-one"></div>
+                            <div class="bubble bubble-two"></div>
+                            <div class="bubble bubble-three"></div>
+
+                        </div>
+
+                        <span class="preview-label">
+                            AQUAFISH STORE
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-card-content">
+
+                        <div class="project-card-top">
+
+                            <span class="project-status status-completed">
+                                COMPLETED
+                            </span>
+
+                            <span class="project-type">
+                                Web System
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            AquaFish Store
+                        </h3>
+
+                        <p>
+                            A fish store management system with product
+                            information and backend functionality built
+                            using JavaScript technologies.
+                        </p>
+
+
+                        <div class="project-tech-list">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Express</span>
+                            <span>SQLite</span>
+
+                        </div>
+
+
+                        <div class="project-card-footer">
+
+                            <span class="project-year">
+                                2026
+                            </span>
+
+                            <a href="#" class="project-link">
+                                View Project →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ======================================
+                     PROJECT 3
+                ======================================= -->
+
+                <article class="project-dashboard-card">
+
+                    <div class="project-preview design-preview">
+
+                        <div class="design-grid">
+
+                            <div class="design-box box-large">
+                                GD
+                            </div>
+
+                            <div class="design-box">
+                                UI
+                            </div>
+
+                            <div class="design-box">
+                                ✦
+                            </div>
+
+                            <div class="design-box">
+                                ART
+                            </div>
+
+                        </div>
+
+                        <span class="preview-label">
+                            GRAPHIC DESIGN
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-card-content">
+
+                        <div class="project-card-top">
+
+                            <span class="project-status status-completed">
+                                COMPLETED
+                            </span>
+
+                            <span class="project-type">
+                                Creative
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            Graphic Design Works
+                        </h3>
+
+                        <p>
+                            A collection of graphic design materials,
+                            layouts, certificates, posters, and visual
+                            content created for different purposes.
+                        </p>
+
+
+                        <div class="project-tech-list">
+
+                            <span>Graphic Design</span>
+                            <span>UI Design</span>
+                            <span>Layout</span>
+
+                        </div>
+
+
+                        <div class="project-card-footer">
+
+                            <span class="project-year">
+                                2026
+                            </span>
+
+                            <a href="#" class="project-link">
+                                View Work →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- ======================================
+                     PROJECT 4
+                ======================================= -->
+
+                <article class="project-dashboard-card">
+
+                    <div class="project-preview portfolio-preview">
+
+                        <div class="portfolio-window">
+
+                            <div class="portfolio-nav">
+
+                                <span>iLance</span>
+
+                                <div>
+                                    ● ● ●
+                                </div>
+
+                            </div>
+
+                            <div class="portfolio-body">
+
+                                <div class="portfolio-text"></div>
+                                <div class="portfolio-text short"></div>
+
+                                <div class="portfolio-button"></div>
+
+                            </div>
+
+                        </div>
+
+                        <span class="preview-label">
+                            PERSONAL PORTFOLIO
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-card-content">
+
+                        <div class="project-card-top">
+
+                            <span class="project-status status-development">
+                                DEVELOPMENT
+                            </span>
+
+                            <span class="project-type">
+                                Portfolio
+                            </span>
+
+                        </div>
+
+
+                        <h3>
+                            iLance Portfolio
+                        </h3>
+
+                        <p>
+                            A modern personal portfolio combining web
+                            development, UI design, graphic design, and
+                            professional project presentation.
+                        </p>
+
+
+                        <div class="project-tech-list">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive UI</span>
+
+                        </div>
+
+
+                        <div class="project-card-footer">
+
+                            <span class="project-year">
+                                2026
+                            </span>
+
+                            <a href="../index.html" class="project-link">
+                                View Portfolio →
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+
+            <!-- ==========================================
+                 PROJECT PROCESS
+            =========================================== -->
+
+            <div class="section-title-row project-process-title">
+
+                <div>
+
+                    <h2>
+                        How I Build Projects
+                    </h2>
+
+                    <p>
+                        My simple development workflow
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-process-grid">
+
+
+                <div class="process-card">
+
+                    <span class="process-number">
+                        01
+                    </span>
+
+                    <div class="process-icon">
+                        ◎
+                    </div>
+
+                    <h3>
+                        Plan
+                    </h3>
+
+                    <p>
+                        Understand the problem, users, requirements,
+                        and project goals.
+                    </p>
+
+                </div>
+
+
+                <div class="process-card">
+
+                    <span class="process-number">
+                        02
+                    </span>
+
+                    <div class="process-icon">
+                        ◇
+                    </div>
+
+                    <h3>
+                        Design
+                    </h3>
+
+                    <p>
+                        Create the structure, interface, layout,
+                        and overall visual direction.
+                    </p>
+
+                </div>
+
+
+                <div class="process-card">
+
+                    <span class="process-number">
+                        03
+                    </span>
+
+                    <div class="process-icon">
+                        </> 
+                    </div>
+
+                    <h3>
+                        Develop
+                    </h3>
+
+                    <p>
+                        Build the frontend, backend, database,
+                        and required functionality.
+                    </p>
+
+                </div>
+
+
+                <div class="process-card">
+
+                    <span class="process-number">
+                        04
+                    </span>
+
+                    <div class="process-icon">
+                        ✓
+                    </div>
+
+                    <h3>
+                        Improve
+                    </h3>
+
+                    <p>
+                        Test, fix issues, improve the design,
+                        and continue learning.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==========================================
+                 CTA
+            =========================================== -->
+
+            <div class="dashboard-cta">
+
+                <div>
+
+                    <span class="eyebrow">
+                        HAVE A PROJECT?
+                    </span>
+
+                    <h2>
+                        Let's build something useful.
+                    </h2>
+
+                    <p>
+                        I'm open to learning opportunities,
+                        freelance work, and collaborative projects.
+                    </p>
+
+                </div>
+
+                <a href="contact.html" class="btn btn-primary">
+                    Contact Me
+                </a>
+
+            </div>
+
+
+
+            <!-- ==========================================
+                 FOOTER
+            =========================================== -->
+
+            <footer class="dashboard-footer">
+
+                <p>
+                    © <span id="currentYear"></span>
+                    iLance. Built with HTML, CSS & JavaScript.
+                </p>
+
+                <div class="footer-links">
+
+                    <a href="about.html">About</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="contact.html">Contact</a>
+
+                </div>
+
+            </footer>
+
+        </section>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="../script.js"></script>
+
+</body>
+</html>
